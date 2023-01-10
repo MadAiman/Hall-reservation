@@ -140,8 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Hall.h" />
+    <ClInclude Include="Client.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Clientwork.cpp" />
     <ClCompile Include="hallwork.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

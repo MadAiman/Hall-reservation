@@ -13,15 +13,11 @@ void Hall::setType(int type)
 {
 	Type = type;
 }
-void Hall::setDate(int date)
-{
-	Date = date;
-}
-void Hall::setStart(int start)
+void Hall::setStart(double start)
 {
 	Start = start;
 }
-void Hall::setEnd(int end)
+void Hall::setEnd(double end)
 {
 	End = end;
 }
@@ -47,15 +43,11 @@ int Hall::getType()
 {
 	return Type;
 }
-int Hall::getDate()
-{
-	return Date;
-}
-int Hall::getStart()
+double Hall::getStart()
 {
 	return Start;
 }
-int Hall::getEnd()
+double Hall::getEnd()
 {
 	return End;
 }
