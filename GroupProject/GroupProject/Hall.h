@@ -7,15 +7,15 @@ const int x = 10;
 
 class Hall {
 private:
-	int Id, Type;
+	int Id[x], Type;
 	double Start, End;
-	string Name = "Dewan makan";
+	string Name[x] = { "Dewan A" , "Dewan B" , "Dewan C", "Dewan D" , "Dewan E"};
 	string Preference, Request;
 
 public:
 	Hall();
 	~Hall();
-	void setId(int Id);
+	void setId(int Id[x]);
 	void setType(int type);
 	void setDate(int date);
 	void setStart(double start);

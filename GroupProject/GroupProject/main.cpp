@@ -17,7 +17,7 @@ void main()
 	cout << "\t\tWelcome to Beban Hall \n\t\t\twhere we provide all type of hall for all type of occasion" << endl;
 	cout << "Take a glimpse at our hall";
 	cout << hall.getName();
-	
+
 	cout << "\nStart date of the rent(dd.mm): ";
 	cin >> start;
 	hall.setStart(start);
