@@ -142,6 +142,7 @@
     <ClInclude Include="Hall.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="hallwork.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
